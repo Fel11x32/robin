@@ -1,0 +1,44 @@
+.button {
+	padding: 24px 32px;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid rgb(82, 33, 230);
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.button a {
+	position: relative;
+	left: 0;
+	transition: all .35s ease-Out;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 150%;
+}
+
+.button__arrow {
+	width: 100%;
+	height: 100%;
+	background: rgb(82, 33, 230);
+	left: -247px;
+	position: absolute;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all .35s ease-Out;
+	bottom: 0;
+}
+
+.button img {
+	width: 20px;
+	height: auto;
+}
+
+.button:hover .button__arrow {
+	left: 0;
+}
+
+.button:hover a {
+	left: 247px;
+}

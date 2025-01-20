@@ -1,0 +1,26 @@
+.first-title {
+}
+
+.first-title:not(:first-child) {
+	margin-top: 8px;
+}
+
+.first-title__subtitle {
+	line-height: 150%;
+	text-transform: uppercase;
+	color: var(--light-gray);
+	font-weight: 700;
+}
+
+.first-title__heading {
+	font-size: 55px;
+	line-height: 66px;
+	font-weight: 700;
+}
+
+@media (max-width: 767px) {
+	.first-title__heading {
+		font-size: 32px;
+		line-height: 39px;
+	}
+}

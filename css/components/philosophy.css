@@ -1,0 +1,36 @@
+.philosophy {
+	position: relative;
+}
+
+.philosophy__content {
+	width: 50%;
+	padding-right: 40px;
+}
+
+.philosophy__title {
+	gap: 10svw;
+}
+
+
+.philosophy__img {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	top: 0;
+	right: 0;
+	object-fit: cover;
+}
+
+@media (max-width: 767px) {
+	.philosophy__content {
+		width: 100%;
+		padding: 0;
+	}
+	.philosophy__img {
+		position: relative;
+		width: 100%;
+		max-height: 80vh;
+		margin-top: 48px;
+		margin-bottom: -50px;
+	}
+}
