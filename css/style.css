@@ -390,9 +390,6 @@ body {
 	border: 1px solid var(--level-one-color);
 }
 
-.labels__img {
-}
-
 @media (max-width: 990px) {
 	.labels__container {
 		grid-template-columns: repeat(2, 1fr);
@@ -465,9 +462,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.work__button {
 }
 
 @media (max-width: 990px) {

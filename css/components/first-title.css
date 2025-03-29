@@ -1,6 +1,3 @@
-.first-title {
-}
-
 .first-title:not(:first-child) {
 	margin-top: 8px;
 }
